@@ -105,7 +105,7 @@ export default function TeamSection() {
       </div>
 
       <div className="flex justify-end mt-10">
-        <button className="bg-black text-white px-6 py-3 rounded-xl text-[13px] md:text-[18px]">
+        <button className="bg-black text-white px-6 py-3 rounded-xl text-[13px] md:text-[18px] cursor-pointer hover:bg-gray-500">
           See all team
         </button>
       </div>
