@@ -39,7 +39,7 @@ export default function Footer() {
             <span className="inline-block bg-[#B9FF66] text-black text-sm font-semibold px-3 py-1 rounded mb-2">
               Contact us:
             </span>
-            <p className="text-sm">Email: info@positivus.com</p>
+            <p className="text-sm">Email: sahiahmed@positivus.com</p>
             <p className="text-sm">Phone: 555-567-8801</p>
             <p className="text-sm">
               Address: 1234 Main St <br />
