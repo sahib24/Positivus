@@ -1,26 +1,19 @@
 @import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.custom-container {
+  @apply px-10 sm:px-10 md:px-10 lg:px-10 xl:px-10;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.ourclient .swiper-wrapper {
+  transition-timing-function: linear;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.testimonial .swiper-pagination .swiper-pagination-bullet {
+  background-color: white;
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.testimonial .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #b9ff66 !important;
 }
