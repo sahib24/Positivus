@@ -80,7 +80,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex justify-center w-full mt-4 lg:mt-0">
+          <div className="flex justify-end w-full mt-4 lg:mt-0">
             <div className="bg-[#292A32] rounded-xl w-full sm:w-[90%] md:w-[80%] lg:w-[70%] xl:w-[60%] p-4 min-h-[120px] flex items-center justify-center">
               <div className="flex flex-col sm:flex-row gap-3 items-center justify-center w-full sm:w-auto">
                 <input
@@ -96,7 +96,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 border-t border-gray-700 pt-6 text-sm flex flex-col md:flex-row justify-between text-center md:text-left gap-4">
+        <div className="mt-10 border-t border-gray-700 pt-6 text-sm flex flex-col md:flex-row gap-16 text-center md:text-left">
           <p>© 2025 Positivus. All Rights Reserved.</p>
           <p className="underline">Privacy Policy</p>
         </div>

@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import { useState } from "react";
 import { RiMenuFill } from "react-icons/ri";
@@ -24,46 +23,44 @@ export default function Navbar() {
 
         <div className="hidden md:flex flex-1 justify-end items-center gap-6">
           <Link
-            href="#"
-            className="text-D_Grey text-[10px] md:text-[15px] cursor-pointer group"
+            href="/AboutUs"
+            className="text-D_Grey text-[10px] md:text-[15px] group"
           >
             About us
             <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
           </Link>
           <Link
-            href="#"
+            href="/Services"
             className="text-D_Grey text-[10px] md:text-[15px] group"
           >
             Services
             <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
           </Link>
           <Link
-            href="#"
+            href="/Usecases"
             className="text-D_Grey text-[10px] md:text-[15px] group"
           >
             Use Cases
             <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
           </Link>
           <Link
-            href="#"
+            href="/Pricing"
             className="text-D_Grey text-[10px] md:text-[15px] group"
           >
             Pricing
             <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
           </Link>
           <Link
-            href="#"
+            href="/Blog"
             className="text-D_Grey text-[10px] md:text-[15px] group"
           >
-            Pricing
+            Blog
             <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
           </Link>
 
           <div className="flex items-center gap-4">
             <button className="hidden md:block bg-Primary px-2 py-2 rounded border border-black hover:bg-[#B9FF66] cursor-pointer">
-              <p className="flex items-center   text-[10px] md:text-[15px]">
-                Request a quote
-              </p>
+              <p className="text-[10px] md:text-[15px]">Request a quote</p>
             </button>
           </div>
         </div>
@@ -98,35 +95,45 @@ export default function Navbar() {
           />
         </div>
 
-        <Link href="/" onClick={closeMenu}>
-          <button className="text-D_Grey text-[15px] cursor-pointer group">
-            About us
-            <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
-          </button>
+        <Link
+          href="/aboutus"
+          onClick={closeMenu}
+          className="text-D_Grey text-[15px] group"
+        >
+          About us
+          <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
         </Link>
-        <Link href="/aboutus" onClick={closeMenu}>
-          <button className="text-D_Grey text-[15px] cursor-pointer group">
-            Services
-            <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
-          </button>
+        <Link
+          href="/services"
+          onClick={closeMenu}
+          className="text-D_Grey text-[15px] group"
+        >
+          Services
+          <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
         </Link>
-        <Link href="/services" onClick={closeMenu}>
-          <button className="text-D_Grey text-[15px] cursor-pointer group">
-            Use Cases
-            <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
-          </button>
+        <Link
+          href="/usecases"
+          onClick={closeMenu}
+          className="text-D_Grey text-[15px] group"
+        >
+          Use Cases
+          <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
         </Link>
-        <Link href="/gallery" onClick={closeMenu}>
-          <button className="text-D_Grey text-[15px] cursor-pointer group">
-            Pricing
-            <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
-          </button>
+        <Link
+          href="/pricing"
+          onClick={closeMenu}
+          className="text-D_Grey text-[15px] group"
+        >
+          Pricing
+          <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
         </Link>
-        <Link href="/enquiry" onClick={closeMenu}>
-          <button className="text-D_Grey text-[15px] cursor-pointer group">
-            Blog
-            <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
-          </button>
+        <Link
+          href="/blog"
+          onClick={closeMenu}
+          className="text-D_Grey text-[15px] group"
+        >
+          Blog
+          <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
         </Link>
 
         <button className="flex justify-center items-center py-2 rounded border border-black cursor-pointer hover:bg-white text-[15px]">
