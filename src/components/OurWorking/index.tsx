@@ -48,7 +48,7 @@ export default function OurWorking() {
   return (
     <div className="custom-container py-10">
       <div className="flex flex-col sm:flex-row sm:items-center gap-4  sm:gap-3 py-10">
-        <span className="bg-[#B9FF66] leading-tight text-black font-bold text-[24px] sm:text-[30px] px-1 py-1 rounded self-center sm:self-start w-max">
+        <span className="bg-[#B9FF66]  leading-tight text-black font-bold text-[24px] sm:text-[30px] px-1 py-1 rounded self-center sm:self-start w-max">
           Our Working Process
         </span>
 
@@ -63,7 +63,7 @@ export default function OurWorking() {
         return (
           <div
             key={index}
-            className={`rounded-4xl px-8 mb-4 transition-all duration-300 ease-in-out ${
+            className={`px-8 mb-4 transition-all duration-300 ease-in-out rounded-[40px] border-[2px] border-b-6 ${
               isOpen ? "bg-[#B9FF66]" : "bg-[#F3F3F3]"
             }`}
           >

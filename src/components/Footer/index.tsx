@@ -16,7 +16,7 @@ export default function Footer() {
             />
           </div>
 
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-5 text-3xl]">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-5 text-md">
             <Link href="#" className="underline hover:text-gray-300">
               About us
             </Link>
@@ -80,15 +80,15 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex justify-end w-full mt-4 lg:mt-0">
-            <div className="bg-[#292A32] rounded-xl w-full sm:w-[90%] md:w-[80%] lg:w-[70%] xl:w-[60%] p-4 min-h-[120px] flex items-center justify-center">
-              <div className="flex flex-col sm:flex-row gap-3 items-center justify-center w-full sm:w-auto">
+          <div className="w-full flex justify-center lg:justify-end">
+            <div className="bg-[#292A32] rounded-xl w-full max-w-[400px] p-3 min-h-[80px] flex items-center justify-center">
+              <div className="flex flex-row flex-nowrap gap-2 items-center justify-center w-full">
                 <input
                   type="email"
                   placeholder="Your email"
-                  className="border border-gray-500 bg-transparent text-white rounded-md px-4 py-2 w-full sm:w-64 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="border border-gray-500 bg-transparent text-white rounded-md px-3 py-2 w-[160px] text-sm focus:outline-none focus:ring-2 focus:ring-white"
                 />
-                <button className="bg-[#B9FF66] text-black font-medium py-2 px-5 rounded-md text-sm w-full sm:w-auto cursor-pointer hover:bg-green-300">
+                <button className="bg-[#B9FF66] text-black font-medium py-2 px-2 rounded-md text-sm whitespace-nowrap hover:bg-green-300">
                   Subscribe to news
                 </button>
               </div>

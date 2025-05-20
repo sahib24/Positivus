@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { useState } from "react";
 import { RiMenuFill } from "react-icons/ri";
@@ -12,13 +14,15 @@ export default function Navbar() {
     <div className="custom-container mt-8">
       <div className="flex items-center justify-between py-4">
         <div className="flex items-center text-white">
-          <Image
-            src="/navbar.png"
-            alt="Nexcent Logo"
-            width={120}
-            height={55}
-            quality={100}
-          />
+          <Link href="/">
+            <Image
+              src="/navbar.png"
+              alt="Nexcent Logo"
+              width={120}
+              height={55}
+              quality={100}
+            />
+          </Link>
         </div>
 
         <div className="hidden md:flex flex-1 justify-end items-center gap-6">

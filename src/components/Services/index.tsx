@@ -16,7 +16,7 @@ export default function Services() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div className="bg-[#F3F3F3] p-5 rounded-2xl shadow-md flex flex-col justify-between py-6 ">
+        <div className="bg-[#F3F3F3] p-5 shadow-md flex flex-col justify-between py-6 rounded-[40px] border-[2px] border-b-6">
           <div className="flex flex-col md:flex-row items-center justify-between ">
             <div className="text-center md:text-left space-y-24">
               <h1 className="text-[24px] leading-tight font-semibold text-D_Grey bg-[#B9FF66] px-2">
@@ -121,7 +121,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="bg-[#F3F3F3]  p-5 rounded-2xl shadow-md flex flex-col justify-between py-6">
+        <div className="bg-[#F3F3F3]  p-5 rounded-[40px] border-[2px] border-b-6 shadow-md flex flex-col justify-between py-6">
           <div className="flex flex-col md:flex-row items-center justify-between ">
             <div className=" text-center md:text-left space-y-24">
               <h1 className="font-semibold text-D_Grey bg-[#B9FF66] px-2  text-[24px] leading-tight ">
@@ -156,7 +156,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="bg-[#B9FF66] p-5 rounded-2xl shadow-md flex flex-col justify-between py-6">
+        <div className="bg-[#B9FF66] p-5 rounded-[40px] border-[2px] border-b-6 shadow-md flex flex-col justify-between py-6">
           <div className="flex flex-col md:flex-row items-center justify-between ">
             <div className=" text-center md:text-left space-y-24">
               <h1 className="font-semibold text-D_Grey px-2 bg-white text-[24px] leading-tight ">

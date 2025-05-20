@@ -12,7 +12,7 @@ export default function Navigating() {
             alt="Business growth illustration"
             width={400}
             height={400}
-            className="h-auto max-w-[80%] md:max-w-[500px]"
+            className="h-auto w-fit"
           />
         </div>
 

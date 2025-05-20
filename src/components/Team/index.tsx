@@ -65,7 +65,7 @@ export default function TeamSection() {
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className="bg-white border rounded-3xl p-4 shadow-md hover:shadow-lg transition relative"
+            className="bg-white  p-4 rounded-[40px] border-[2px] border-b-6 shadow-md hover:shadow-lg transition relative"
           >
             <div className="flex items-start space-x-4 pt-2">
               <div>
@@ -103,7 +103,7 @@ export default function TeamSection() {
         ))}
       </div>
 
-      <div className="flex justify-end mt-10">
+      <div className="flex lg:justify-end  sm:justify-center md:sm:justify-end justify-center  mt-10">
         <button className="bg-black text-white px-6 py-3 rounded-xl text-[13px] md:text-[18px] cursor-pointer hover:bg-gray-500">
           See all team
         </button>

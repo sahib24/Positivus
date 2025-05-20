@@ -18,7 +18,7 @@ export default function OutJourney() {
         </div>
 
         <div className="max-w-6xl mx-auto py-16 px-4 space-y-16">
-          <Link href="#" className="absolute top-150 right-0 hidden lg:block ">
+          <Link href="#" className="absolute top-170 right-0 hidden lg:block ">
             <Image src="/Aright.jpeg" alt="LinkedIn" width={250} height={250} />
           </Link>
           <Link href="#" className="absolute top-100 left-0 hidden lg:block ">
@@ -31,8 +31,18 @@ export default function OutJourney() {
                 <div className="w-20 text-right">
                   <h3 className="text-xl font-bold text-black mt-2">2019</h3>
                 </div>
-                <div className="bg-gray-900 text-white rounded-2xl p-6 shadow-md w-full">
-                  <h4 className="text-xl font-semibold">The Beginning</h4>
+
+                <div className="bg-gray-900 text-white rounded-2xl p-10 shadow-md w-full">
+                  <div className="flex items-center gap-2">
+                    <Image
+                      src="/Vector.png"
+                      alt="icon"
+                      width={24}
+                      height={24}
+                    />
+
+                    <h4 className="text-xl font-semibold">The Beginning</h4>
+                  </div>
                   <p className="text-sm text-gray-300 mt-2">
                     Positivus was founded to help businesses navigate the
                     digital world and achieve online success.
@@ -50,10 +60,20 @@ export default function OutJourney() {
                 <div className="w-20 text-right">
                   <h3 className="text-xl font-bold text-black mt-2">2021</h3>
                 </div>
-                <div className="bg-gray-900 text-white rounded-2xl p-6 shadow-md w-full">
-                  <h4 className="text-xl font-semibold">
-                    Industry Recognition
-                  </h4>
+
+                <div className="bg-gray-900 text-white rounded-2xl p-10 shadow-md w-full">
+                  <div className="flex items-center gap-2">
+                    <Image
+                      src="/Vector.png"
+                      alt="icon"
+                      width={24}
+                      height={24}
+                    />
+
+                    <h4 className="text-xl font-semibold">
+                      Industry Recognition
+                    </h4>
+                  </div>
                   <p className="text-sm text-gray-300 mt-2">
                     Positivus was named among the top 50 global digital
                     agencies, affirming its leadership.
@@ -69,10 +89,20 @@ export default function OutJourney() {
                 <div className="w-20 text-right">
                   <h3 className="text-xl font-bold text-black mt-2">2023</h3>
                 </div>
-                <div className="bg-gray-900 text-white rounded-2xl p-6 shadow-md w-full">
-                  <h4 className="text-xl font-semibold">
-                    Innovation and Growth
-                  </h4>
+
+                <div className="bg-gray-900 text-white rounded-2xl p-10 shadow-md w-full">
+                  <div className="flex items-center gap-2">
+                    <Image
+                      src="/Vector.png"
+                      alt="icon"
+                      width={24}
+                      height={24}
+                    />
+
+                    <h4 className="text-xl font-semibold">
+                      Innovation and Growth
+                    </h4>
+                  </div>
                   <p className="text-sm text-gray-300 mt-2">
                     With over 50 experts, Positivus continues to deliver
                     cutting-edge solutions to help businesses thrive.
@@ -90,8 +120,20 @@ export default function OutJourney() {
                 <div className="w-20 text-right">
                   <h3 className="text-xl font-bold text-black mt-2">2024</h3>
                 </div>
-                <div className="bg-gray-900 text-white rounded-2xl p-6 shadow-md w-full">
-                  <h4 className="text-xl font-semibold">Leading the Future</h4>
+
+                <div className="bg-gray-900 text-white rounded-2xl p-10 shadow-md w-full">
+                  <div className="flex items-center gap-2">
+                    <Image
+                      src="/Vector.png"
+                      alt="icon"
+                      width={24}
+                      height={24}
+                    />
+
+                    <h4 className="text-xl font-semibold">
+                      Leading the Future
+                    </h4>
+                  </div>
                   <p className="text-sm text-gray-300 mt-2">
                     In 2024, Positivus is pioneering the use of AI and
                     automation to deliver more personalized, data-driven
