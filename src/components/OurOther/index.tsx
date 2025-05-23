@@ -1,16 +1,16 @@
 "use client";
 import Image from "next/image";
 
-export default function Services() {
+export default function OurOther() {
   return (
     <div className="custom-container  sm:px-6 lg:px-8 mb-10">
       <div className="flex flex-col sm:flex-row sm:items-center gap-4  sm:gap-3 py-10">
         <span className="bg-[#B9FF66] text-black font-bold text-[24px] sm:text-[30px] px-2 py-1 rounded self-center sm:self-start w-max">
-          Services
+          Our Other Services
         </span>
 
         <p className="text-[15px] sm:text-[16px] text-black max-w-full sm:max-w-[500px] flex text-center justify-center sm:text-left">
-          At our digital marketing agency, we offer a range of services to help
+          At a digital marketing agency, a range of services are offered to help
           businesses grow and succeed online. These services include:
         </p>
       </div>
@@ -51,7 +51,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="bg-[#B9FF66] p-5  shadow-md flex flex-col justify-between py-6 rounded-[40px] border-[2px] border-b-6">
+        <div className="bg-[#F3F3F3] p-5  shadow-md flex flex-col justify-between py-6 rounded-[40px] border-[2px] border-b-6">
           <div className="flex flex-col md:flex-row items-center justify-between ">
             <div className=" text-center md:text-left space-y-24">
               <h1 className="text-[24px] leading-tight  font-semibold text-D_Grey px-2 bg-white ">
@@ -86,7 +86,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="bg-black text-white p-5 rounded-2xl shadow-md flex flex-col justify-between py-6">
+        <div className="bg-[#F3F3F3] p-5  shadow-md flex flex-col justify-between py-6 rounded-[40px] border-[2px] border-b-6">
           <div className="flex flex-col md:flex-row items-center justify-between ">
             <div className=" text-center md:text-left space-y-24">
               <h1 className="font-semibold text-D_Grey bg-white px-2 text-black  text-[24px] leading-tight ">
@@ -96,13 +96,13 @@ export default function Services() {
 
               <div className="flex items-center gap-2 justify-center sm:justify-start ">
                 <Image
-                  src="/serviceIcons/IconB.png"
+                  src="/serviceIcons/Icon.png"
                   alt="Clubs icon"
                   width={24}
                   height={24}
                   className="w-6 h-6"
                 />
-                <div className="flex items-center justify-between  ">
+                <div className="flex items-center text-black justify-between  ">
                   <button className=" font-medium flex items-center">
                     Learn more
                   </button>
@@ -156,7 +156,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="bg-[#B9FF66] p-5 rounded-[40px] border-[2px] border-b-6 shadow-md flex flex-col justify-between py-6">
+        <div className="bg-[#F3F3F3] p-5 rounded-[40px] border-[2px] border-b-6 shadow-md flex flex-col justify-between py-6">
           <div className="flex flex-col md:flex-row items-center justify-between ">
             <div className=" text-center md:text-left space-y-24">
               <h1 className="font-semibold text-D_Grey px-2 bg-white text-[24px] leading-tight ">
@@ -191,7 +191,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="bg-black text-white p-5 rounded-2xl shadow-md flex flex-col justify-between py-6">
+        <div className="bg-[#F3F3F3] p-5 rounded-[40px] border-[2px] border-b-6 shadow-md flex flex-col justify-between py-6">
           <div className="flex flex-col md:flex-row items-center justify-between ">
             <div className=" text-center md:text-left space-y-24">
               <h1 className="font-semibold text-D_Grey px-2 bg-[#B9FF66]  text-[24px] leading-tight text-black">
@@ -201,13 +201,13 @@ export default function Services() {
 
               <div className="flex items-center gap-2 justify-center sm:justify-start ">
                 <Image
-                  src="/serviceIcons/IconB.png"
+                  src="/serviceIcons/Icon.png"
                   alt="Clubs icon"
                   width={24}
                   height={24}
                   className="w-6 h-6"
                 />
-                <div className="flex items-center justify-between  ">
+                <div className="flex items-center text-black justify-between  ">
                   <button className=" font-medium flex items-center">
                     Learn more
                   </button>
