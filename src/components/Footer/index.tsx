@@ -88,7 +88,7 @@ export default function Footer() {
                   placeholder="Your email"
                   className="border border-gray-500 bg-transparent text-white rounded-md px-3 py-2 w-[160px] text-sm focus:outline-none focus:ring-2 focus:ring-white"
                 />
-                <button className="bg-[#B9FF66] text-black font-medium py-2 px-2 rounded-md text-sm whitespace-nowrap hover:bg-green-300">
+                <button className="bg-[#B9FF66] text-black font-medium py-2 px-2 rounded-md text-sm whitespace-nowrap hover:bg-[#191A23] hover:text-white">
                   Subscribe to news
                 </button>
               </div>

@@ -15,7 +15,7 @@ export default function JoindOurTeam() {
             Positivus are always looking for passionate individuals to join the
             team and help businesses grow. Ready to make an impact?
           </p>
-          <button className="bg-black text-white text-[13px] md:text-[17px] px-4 py-3 mb-3 rounded-xl hover:bg-gray-500 cursor-pointer mt-2 md:mt-5">
+          <button className="bg-black text-white text-[13px] md:text-[17px] px-4 py-3 mb-3 rounded-xl hover:bg-white hover:border-2 hover:text-black cursor-pointer mt-2 md:mt-5">
             Explore Careers
           </button>
         </div>

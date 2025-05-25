@@ -4,11 +4,13 @@ import Link from "next/link";
 import { useState } from "react";
 import { RiMenuFill } from "react-icons/ri";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const MenuBar = () => setIsOpen(!isOpen);
   const closeMenu = () => setIsOpen(false);
+  const pathname = usePathname();
 
   return (
     <div className="custom-container mt-8">
@@ -31,42 +33,74 @@ export default function Navbar() {
             className="text-D_Grey text-[10px] md:text-[15px] group"
           >
             About us
-            <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
+            <p
+              className={`h-[1.5px] bg-black transition-all duration-300 ${
+                pathname === "/AboutUs" ? "w-full" : "w-0 group-hover:w-full"
+              }`}
+            ></p>
           </Link>
+
           <Link
             href="/Services"
             className="text-D_Grey text-[10px] md:text-[15px] group"
           >
             Services
-            <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
+            <p
+              className={`h-[1.5px] bg-black transition-all duration-300 ${
+                pathname === "/Services" ? "w-full" : "w-0 group-hover:w-full"
+              }`}
+            ></p>
           </Link>
+
           <Link
             href="/Usecases"
             className="text-D_Grey text-[10px] md:text-[15px] group"
           >
             Use Cases
-            <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
+            <p
+              className={`h-[1.5px] bg-black transition-all duration-300 ${
+                pathname === "/Usecases" ? "w-full" : "w-0 group-hover:w-full"
+              }`}
+            ></p>
           </Link>
+
           <Link
             href="/Pricing"
             className="text-D_Grey text-[10px] md:text-[15px] group"
           >
             Pricing
-            <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
+            <p
+              className={`h-[1.5px] bg-black transition-all duration-300 ${
+                pathname === "/Pricing" ? "w-full" : "w-0 group-hover:w-full"
+              }`}
+            ></p>
           </Link>
+
           <Link
             href="/Blog"
             className="text-D_Grey text-[10px] md:text-[15px] group"
           >
             Blog
-            <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
+            <p
+              className={`h-[1.5px] bg-black transition-all duration-300 ${
+                pathname === "/Blog" ? "w-full" : "w-0 group-hover:w-full"
+              }`}
+            ></p>
           </Link>
 
-          <div className="flex items-center gap-4">
-            <button className="hidden md:block bg-Primary px-2 py-2 rounded border border-black hover:bg-[#B9FF66] cursor-pointer">
-              <p className="text-[10px] md:text-[15px]">Request a quote</p>
-            </button>
-          </div>
+          <Link
+            href="/Quote"
+            className="hidden md:block group bg-Primary px-2 py-2 rounded border border-black hover:bg-[#B9FF66] cursor-pointer"
+          >
+            <p className="text-[10px] md:text-[15px] text-center">
+              Request a quote
+            </p>
+            <p
+              className={`h-[1.5px] bg-black transition-all duration-300 ${
+                pathname === "/Quote" ? "w-full" : "w-0 group-hover:w-full"
+              }`}
+            ></p>
+          </Link>
         </div>
 
         <button
@@ -90,59 +124,94 @@ export default function Navbar() {
         }`}
       >
         <div className="flex justify-center space-x-2 mb-4">
-          <Image
-            src="/navbar.png"
-            alt="Nexcent Logo"
-            width={100}
-            height={100}
-            className="h-8 w-24"
-          />
+          <Link href="/" onClick={closeMenu}>
+            <Image
+              src="/navbar.png"
+              alt="Positivus Logo"
+              width={100}
+              height={100}
+              className="h-8 w-24"
+            />
+          </Link>
         </div>
 
         <Link
-          href="/aboutus"
+          href="/AboutUs"
           onClick={closeMenu}
-          className="text-D_Grey text-[15px] group"
+          className="text-D_Grey text-[15px] font-medium group"
         >
           About us
-          <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
-        </Link>
-        <Link
-          href="/services"
-          onClick={closeMenu}
-          className="text-D_Grey text-[15px] group"
-        >
-          Services
-          <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
-        </Link>
-        <Link
-          href="/usecases"
-          onClick={closeMenu}
-          className="text-D_Grey text-[15px] group"
-        >
-          Use Cases
-          <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
-        </Link>
-        <Link
-          href="/pricing"
-          onClick={closeMenu}
-          className="text-D_Grey text-[15px] group"
-        >
-          Pricing
-          <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
-        </Link>
-        <Link
-          href="/blog"
-          onClick={closeMenu}
-          className="text-D_Grey text-[15px] group"
-        >
-          Blog
-          <p className="w-0 h-[1.5px] bg-black group-hover:w-full transition-all duration-300"></p>
+          <p
+            className={`h-[1.5px] bg-black transition-all duration-300 ${
+              pathname === "/AboutUs" ? "w-full" : "w-0 group-hover:w-full"
+            }`}
+          ></p>
         </Link>
 
-        <button className="flex justify-center items-center py-2 rounded border border-black cursor-pointer hover:bg-white text-[15px]">
+        <Link
+          href="/Services"
+          onClick={closeMenu}
+          className="text-D_Grey text-[15px] font-medium group"
+        >
+          Services
+          <p
+            className={`h-[1.5px] bg-black transition-all duration-300 ${
+              pathname === "/Services" ? "w-full" : "w-0 group-hover:w-full"
+            }`}
+          ></p>
+        </Link>
+
+        <Link
+          href="/Usecases"
+          onClick={closeMenu}
+          className="text-D_Grey text-[15px] font-medium group"
+        >
+          Use Cases
+          <p
+            className={`h-[1.5px] bg-black transition-all duration-300 ${
+              pathname === "/Usecases" ? "w-full" : "w-0 group-hover:w-full"
+            }`}
+          ></p>
+        </Link>
+
+        <Link
+          href="/Pricing"
+          onClick={closeMenu}
+          className="text-D_Grey text-[15px] font-medium group"
+        >
+          Pricing
+          <p
+            className={`h-[1.5px] bg-black transition-all duration-300 ${
+              pathname === "/Pricing" ? "w-full" : "w-0 group-hover:w-full"
+            }`}
+          ></p>
+        </Link>
+
+        <Link
+          href="/Blog"
+          onClick={closeMenu}
+          className="text-D_Grey text-[15px] font-medium group"
+        >
+          Blog
+          <p
+            className={`h-[1.5px] bg-black transition-all duration-300 ${
+              pathname === "/Blog" ? "w-full" : "w-0 group-hover:w-full"
+            }`}
+          ></p>
+        </Link>
+
+        <Link
+          href="/Quote"
+          onClick={closeMenu}
+          className="text-D_Grey text-[15px] font-medium group flex flex-col items-center border border-black py-2 rounded hover:bg-white"
+        >
           Request a quote
-        </button>
+          <p
+            className={`h-[1.5px] bg-black transition-all duration-300 ${
+              pathname === "/Quote" ? "w-full" : "w-0 group-hover:w-full"
+            }`}
+          ></p>
+        </Link>
       </div>
     </div>
   );

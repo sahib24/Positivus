@@ -25,10 +25,10 @@ export default function HowWeWork() {
             className="w-16 h-16"
           />
           <div>
-            <h3 className="text-lg font-semibold mb-1">
+            <h3 className="text-lg font-semibold mb-3">
               Website Audit & Analysis
             </h3>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-gray-600 w-[650px]">
               We begin by conducting a comprehensive audit to identify areas for
               improvement, including technical issues, content quality, and
               keyword opportunities.
@@ -45,10 +45,10 @@ export default function HowWeWork() {
             className="w-16 h-16"
           />
           <div>
-            <h3 className="text-lg font-semibold mb-1">
+            <h3 className="text-lg font-semibold mb-3">
               Keyword Research & Strategy
             </h3>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-gray-600 w-[650px]">
               Our team researches the most relevant and high-impact keywords for
               your business, ensuring that we target terms that drive qualified
               traffic.
@@ -65,8 +65,8 @@ export default function HowWeWork() {
             className="w-16 h-16"
           />
           <div>
-            <h3 className="text-lg font-semibold mb-1">On-Page Optimization</h3>
-            <p className="text-sm text-gray-600">
+            <h3 className="text-lg font-semibold mb-3">On-Page Optimization</h3>
+            <p className="text-sm text-gray-600 w-[650px]">
               We optimize your websites structure, meta tags, and content to
               make it search engine-friendly, improving your visibility and
               relevance.
@@ -83,10 +83,10 @@ export default function HowWeWork() {
             className="w-16 h-16"
           />
           <div>
-            <h3 className="text-lg font-semibold mb-1">
+            <h3 className="text-lg font-semibold mb-3">
               Content Creation & Optimization
             </h3>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-gray-600 w-[650px]">
               High-quality content is key to SEO. We create or refine content
               that engages your audience while aligning with search engine
               algorithms.
@@ -103,8 +103,8 @@ export default function HowWeWork() {
             className="w-16 h-16"
           />
           <div>
-            <h3 className="text-lg font-semibold mb-1">Link Building</h3>
-            <p className="text-sm text-gray-600">
+            <h3 className="text-lg font-semibold mb-3">Link Building</h3>
+            <p className="text-sm text-gray-600 w-[650px]">
               We develop a link-building strategy to acquire authoritative,
               relevant backlinks that boost your domain authority and search
               rankings.
@@ -121,10 +121,10 @@ export default function HowWeWork() {
             className="w-16 h-16"
           />
           <div>
-            <h3 className="text-lg font-semibold mb-1">
+            <h3 className="text-lg font-semibold mb-3">
               Monitoring & Reporting
             </h3>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-gray-600 w-[650px]">
               We continuously monitor performance, track rankings, and provide
               detailed reports, making data-driven adjustments to maintain and
               improve your results.

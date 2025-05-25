@@ -21,7 +21,7 @@ export default function Navigating() {
             online through a range of services including SEO, PPC, social media
             marketing, and content creation.
           </p>
-          <button className="bg-black text-white text-[13px] md:text-[20px] px-4 py-3 mb-3 rounded-xl hover:bg-gray-500 cursor-pointer mt-2 md:mt-5">
+          <button className="bg-black text-white text-[13px] md:text-[20px] px-4 py-3 mb-3 rounded-xl hover:bg-[#B9FF66] hover:text-black cursor-pointer mt-2 md:mt-5">
             Book a consultation
           </button>
         </div>

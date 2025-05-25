@@ -53,14 +53,14 @@ const Pricing = () => {
         {plans.map((plan, index) => {
           const isPopular = plan.popular;
           const cardBg = isPopular
-            ? "bg-neutral-900 text-white border-lime-500 border-2"
+            ? "bg-neutral-900 text-white  border-2"
             : "bg-white";
           const buttonColor = isPopular ? "bg-lime-500" : "bg-black";
 
           return (
             <div
               key={index}
-              className={`rounded-2xl border p-6 shadow-md flex flex-col justify-between ${cardBg}`}
+              className={`rounded-2xl border p-6 shadow-md flex flex-col justify-between   border-b-6 ${cardBg}`}
             >
               <div className="flex flex-col justify-between h-full">
                 <div className="mb-6">

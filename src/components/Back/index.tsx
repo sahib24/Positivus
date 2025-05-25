@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <div className="custom-container py-6">
+    <div className="custom-container py-10">
       <div className="flex gap-3 pl-6 items-center mb-4">
         <Image
           src="/back.png"
@@ -15,7 +15,7 @@ export default function Services() {
         <p className="text-xl text-black">Back</p>
       </div>
 
-      <div className="bg-[#191A23] p-6 md:p-8 rounded-2xl mt-6">
+      <div className="bg-[#191A23] p-6 md:p-8 rounded-2xl mt-6 py-6">
         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
           <div className="flex flex-col items-center text-center md:flex-row md:items-start md:text-left gap-4 w-full md:w-auto">
             <Image src="/Vector.png" alt="icon" width={24} height={24} />
@@ -25,14 +25,14 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="text-white md:max-w-2xl">
+          <div className="text-white md:max-w-4xl">
             <p className="mb-6 leading-relaxed text-sm md:text-base">
               SEO is the process of improving your website visibility on search
               engines like Google. By optimizing your content and site
               structure, we help your business rank higher in search results,
               driving more organic traffic and potential customers.
             </p>
-            <button className="w-full md:w-[600px] px-6 py-3 bg-white text-black font-medium rounded-md hover:bg-gray-300 cursor-pointer transition">
+            <button className="w-full md:w-[600px] px-6 py-3 bg-white text-black font-medium rounded-md hover:bg-[#B9FF66] hover:text-black cursor-pointer transition">
               Boost My Rankings
             </button>
           </div>

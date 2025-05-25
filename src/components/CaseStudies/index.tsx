@@ -16,7 +16,7 @@ export default function CaseStudies() {
       </div>
 
       <div className="bg-[#14141F] text-white px-4 py-14 rounded-4xl">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-gray-600 gap-6">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-white ">
           <div className="px-4 max-w-[250px]">
             <p className="mb-4">
               For a local restaurant, we implemented a targeted PPC campaign
@@ -31,7 +31,7 @@ export default function CaseStudies() {
             </Link>
           </div>
 
-          <div className="px-4 max-w-[350px]">
+          <div className="px-4 max-w-[250px]">
             <p className="mb-4">
               For a B2B software company, we developed an SEO strategy that
               resulted in a first page ranking for key keywords and a 200%
@@ -45,7 +45,7 @@ export default function CaseStudies() {
             </Link>
           </div>
 
-          <div className="px-4 max-w-[350px]">
+          <div className="px-4 max-w-[250px]">
             <p className="mb-4">
               For a national retail chain, we created a social media marketing
               campaign that increased followers by 25% and generated a 20%

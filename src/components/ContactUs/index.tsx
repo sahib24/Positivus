@@ -15,7 +15,7 @@ export default function Contact() {
       </div>
 
       <div className="flex flex-col md:flex-row justify-between bg-[#F3F3F3] rounded-lg py-6 mb-8 ">
-        <form className="space-y-4 flex-1 max-w-full md:max-w-md w-full pl-14 pt-10 md:pr-0 pr-10">
+        <form className="space-y-4 flex-1 max-w-full md:max-w-[800px] pl-14 pt-10 md:pr-0 pr-10">
           <div className="flex gap-4">
             <div className="flex items-center mb-3">
               <input
@@ -91,7 +91,7 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="w-full py-2 px-4 rounded-md bg-black text-white font-medium transition cursor-pointer hover:bg-gray-500"
+            className="w-full py-2 px-4 rounded-md bg-black text-white font-medium transition cursor-pointer hover:bg-[#B9FF66] hover:text-black"
           >
             Send Message
           </button>
