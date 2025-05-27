@@ -34,7 +34,7 @@ export default function Navbar() {
           >
             About us
             <p
-              className={`h-[1.5px] bg-black transition-all duration-300 ${
+              className={`h-[1.5px] bg-[#8BCC33] transition-all duration-300 ${
                 pathname === "/AboutUs" ? "w-full" : "w-0 group-hover:w-full"
               }`}
             ></p>
@@ -46,7 +46,7 @@ export default function Navbar() {
           >
             Services
             <p
-              className={`h-[1.5px] bg-black transition-all duration-300 ${
+              className={`h-[1.5px] bg-[#8BCC33] transition-all duration-300 ${
                 pathname === "/Services" ? "w-full" : "w-0 group-hover:w-full"
               }`}
             ></p>
@@ -58,7 +58,7 @@ export default function Navbar() {
           >
             Use Cases
             <p
-              className={`h-[1.5px] bg-black transition-all duration-300 ${
+              className={`h-[1.5px] bg-[#8BCC33] transition-all duration-300 ${
                 pathname === "/Usecases" ? "w-full" : "w-0 group-hover:w-full"
               }`}
             ></p>
@@ -70,7 +70,7 @@ export default function Navbar() {
           >
             Pricing
             <p
-              className={`h-[1.5px] bg-black transition-all duration-300 ${
+              className={`h-[1.5px] bg-[#8BCC33] transition-all duration-300 ${
                 pathname === "/Pricing" ? "w-full" : "w-0 group-hover:w-full"
               }`}
             ></p>
@@ -82,7 +82,7 @@ export default function Navbar() {
           >
             Blog
             <p
-              className={`h-[1.5px] bg-black transition-all duration-300 ${
+              className={`h-[1.5px] bg-[#8BCC33] transition-all duration-300 ${
                 pathname === "/Blog" ? "w-full" : "w-0 group-hover:w-full"
               }`}
             ></p>
@@ -90,16 +90,16 @@ export default function Navbar() {
 
           <Link
             href="/Quote"
-            className="hidden md:block group bg-Primary px-2 py-2 rounded border border-black hover:bg-[#B9FF66] cursor-pointer"
+            className="hidden md:block px-2 py-2 rounded border cursor-pointer
+             relative overflow-hidden group"
           >
-            <p className="text-[10px] md:text-[15px] text-center">
+            <span
+              className="absolute inset-0 bg-[#8BCC33] translate-x-[-100%] group-hover:translate-x-0
+               transition-transform duration-500 ease-out z-0"
+            ></span>
+            <p className="relative z-10 text-[10px] md:text-[15px] text-center">
               Request a quote
             </p>
-            <p
-              className={`h-[1.5px] bg-black transition-all duration-300 ${
-                pathname === "/Quote" ? "w-full" : "w-0 group-hover:w-full"
-              }`}
-            ></p>
           </Link>
         </div>
 
@@ -119,11 +119,11 @@ export default function Navbar() {
       )}
 
       <div
-        className={`lg:hidden flex flex-col text-center justify-center gap-5 py-10 px-20 fixed top-0 left-0 h-screen z-50 bg-[#B9FF66] w-80 transition-transform duration-300 ${
+        className={`lg:hidden flex flex-col text-center justify-center gap-5  fixed top-0 left-0 h-screen z-50 bg-[#B9FF66] w-80 transition-transform duration-600 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="flex justify-center space-x-2 mb-4">
+        <div className="flex justify-center ">
           <Link href="/" onClick={closeMenu}>
             <Image
               src="/navbar.png"
@@ -135,83 +135,76 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <Link
-          href="/AboutUs"
-          onClick={closeMenu}
-          className="text-D_Grey text-[15px] font-medium group"
-        >
-          About us
-          <p
-            className={`h-[1.5px] bg-black transition-all duration-300 ${
-              pathname === "/AboutUs" ? "w-full" : "w-0 group-hover:w-full"
-            }`}
-          ></p>
-        </Link>
-
-        <Link
-          href="/Services"
-          onClick={closeMenu}
-          className="text-D_Grey text-[15px] font-medium group"
-        >
-          Services
-          <p
-            className={`h-[1.5px] bg-black transition-all duration-300 ${
-              pathname === "/Services" ? "w-full" : "w-0 group-hover:w-full"
-            }`}
-          ></p>
-        </Link>
-
-        <Link
-          href="/Usecases"
-          onClick={closeMenu}
-          className="text-D_Grey text-[15px] font-medium group"
-        >
-          Use Cases
-          <p
-            className={`h-[1.5px] bg-black transition-all duration-300 ${
-              pathname === "/Usecases" ? "w-full" : "w-0 group-hover:w-full"
-            }`}
-          ></p>
-        </Link>
-
-        <Link
-          href="/Pricing"
-          onClick={closeMenu}
-          className="text-D_Grey text-[15px] font-medium group"
-        >
-          Pricing
-          <p
-            className={`h-[1.5px] bg-black transition-all duration-300 ${
-              pathname === "/Pricing" ? "w-full" : "w-0 group-hover:w-full"
-            }`}
-          ></p>
-        </Link>
-
-        <Link
-          href="/Blog"
-          onClick={closeMenu}
-          className="text-D_Grey text-[15px] font-medium group"
-        >
-          Blog
-          <p
-            className={`h-[1.5px] bg-black transition-all duration-300 ${
-              pathname === "/Blog" ? "w-full" : "w-0 group-hover:w-full"
-            }`}
-          ></p>
-        </Link>
-
-        <Link
-          href="/Quote"
-          onClick={closeMenu}
-          className="text-D_Grey text-[15px] font-medium group flex flex-col items-center border border-black py-2 rounded hover:bg-white"
-        >
-          Request a quote
-          <p
-            className={`h-[1.5px] bg-black transition-all duration-300 ${
-              pathname === "/Quote" ? "w-full" : "w-0 group-hover:w-full"
-            }`}
-          ></p>
-        </Link>
+        <div className=" flex flex-col items-center gap-4 ">
+          {" "}
+          <Link
+            href="/AboutUs"
+            onClick={closeMenu}
+            className="text-D_Grey text-[15px] font-medium group "
+          >
+            About us
+            <p
+              className={`h-[1.5px] bg-black transition-all duration-300 ${
+                pathname === "/AboutUs" ? "w-full" : "w-0 group-hover:w-full"
+              }`}
+            ></p>
+          </Link>
+          <Link
+            href="/Services"
+            onClick={closeMenu}
+            className="text-D_Grey text-[15px] font-medium group"
+          >
+            Services
+            <p
+              className={`h-[1.5px] bg-black transition-all duration-300 ${
+                pathname === "/Services" ? "w-full" : "w-0 group-hover:w-full"
+              }`}
+            ></p>
+          </Link>
+          <Link
+            href="/Usecases"
+            onClick={closeMenu}
+            className="text-D_Grey text-[15px] font-medium group"
+          >
+            Use Cases
+            <p
+              className={`h-[1.5px] bg-black transition-all duration-300 ${
+                pathname === "/Usecases" ? "w-full" : "w-0 group-hover:w-full"
+              }`}
+            ></p>
+          </Link>
+          <Link
+            href="/Pricing"
+            onClick={closeMenu}
+            className="text-D_Grey text-[15px] font-medium group"
+          >
+            Pricing
+            <p
+              className={`h-[1.5px] bg-black transition-all duration-300 ${
+                pathname === "/Pricing" ? "w-full" : "w-0 group-hover:w-full"
+              }`}
+            ></p>
+          </Link>
+          <Link
+            href="/Blog"
+            onClick={closeMenu}
+            className="text-D_Grey text-[15px] font-medium group"
+          >
+            Blog
+            <p
+              className={`h-[1.5px] bg-black transition-all duration-300 ${
+                pathname === "/Blog" ? "w-full" : "w-0 group-hover:w-full"
+              }`}
+            ></p>
+          </Link>
+          <button className="text-[14px] font-medium group  items-center border py-2 px-2  rounded relative overflow-hidden cursor-pointer">
+            <span
+              className="absolute inset-0 bg-white translate-x-[-100%] group-hover:translate-x-0
+     transition-transform duration-500 ease-out z-0"
+            ></span>
+            <p className="relative text-center">Request a quote</p>
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -13,8 +13,8 @@ export default function Featured() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0  p-6 rounded-[40px] border-[2px] border-b-6 ">
-        <div className="border-r">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-0  p-6 rounded-[40px] border-[2px] border-b-6 ">
+        <div className=" sm:border-r border-b sm:border-b-0">
           <div className="p-6">
             <h3 className="text-lg font-semibold leading-none">E-commerce</h3>
             <h3 className="text-lg font-semibold mb-6">Fashion Brand</h3>
@@ -32,7 +32,7 @@ export default function Featured() {
                 className="w-6 h-6"
               />
               <div className="flex items-center justify-between  ">
-                <button className=" font-medium flex items-center">
+                <button className=" font-medium flex items-center cursor-pointer">
                   Learn more
                 </button>
               </div>
@@ -40,7 +40,7 @@ export default function Featured() {
           </div>
         </div>
 
-        <div className="border-r">
+        <div className=" sm:border-r border-b sm:border-b-0">
           <div className="p-6">
             <h3 className="text-lg font-semibold leading-none">
               Local Restaurant
@@ -60,7 +60,7 @@ export default function Featured() {
                 className="w-6 h-6"
               />
               <div className="flex items-center justify-between  ">
-                <button className=" font-medium flex items-center">
+                <button className=" font-medium flex items-center cursor-pointer">
                   Learn more
                 </button>
               </div>
@@ -85,14 +85,14 @@ export default function Featured() {
                 className="w-6 h-6"
               />
               <div className="flex items-center justify-between  ">
-                <button className=" font-medium flex items-center">
+                <button className=" font-medium flex items-center cursor-pointer">
                   Learn more
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div className="border-t border-r">
+        <div className=" sm:border-t  border-t sm:border-r">
           <div className="p-6">
             <h3 className="text-lg font-semibold leading-none">E-commerce</h3>
             <h3 className="text-lg font-semibold mb-6">Fashion Brand</h3>
@@ -110,14 +110,14 @@ export default function Featured() {
                 className="w-6 h-6"
               />
               <div className="flex items-center justify-between  ">
-                <button className=" font-medium flex items-center">
+                <button className=" font-medium flex items-center cursor-pointer">
                   Learn more
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div className="border-t border-r">
+        <div className=" sm:border-r sm:border-t border-t">
           <div className="p-6">
             <h3 className="text-lg font-semibold leading-none">
               Local Restaurant
@@ -137,14 +137,14 @@ export default function Featured() {
                 className="w-6 h-6"
               />
               <div className="flex items-center justify-between  ">
-                <button className=" font-medium flex items-center">
+                <button className=" font-medium flex items-center cursor-pointer">
                   Learn more
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div className="border-t">
+        <div className=" sm:border-t border-t">
           <div className="p-6">
             <h3 className="text-lg font-semibold mb-6">Healthcare Provider</h3>
             <p className="text-gray-600 text-sm mb-6">
@@ -162,7 +162,7 @@ export default function Featured() {
                 className="w-6 h-6"
               />
               <div className="flex items-center justify-between  ">
-                <button className=" font-medium flex items-center">
+                <button className=" font-medium flex items-center cursor-pointer">
                   Learn more
                 </button>
               </div>

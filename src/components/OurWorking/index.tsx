@@ -63,7 +63,7 @@ export default function OurWorking() {
         return (
           <div
             key={index}
-            className={`px-8 mb-4 transition-all duration-300 ease-in-out rounded-[40px] border-[2px] border-b-6 ${
+            className={`px-8 mb-4 transition-all duration-300 ease-in-out rounded-[40px] border-[2px] border-b-6 transform  hover:scale-[1.03] hover:-translate-y-1 ${
               isOpen ? "bg-[#B9FF66]" : "bg-[#F3F3F3]"
             }`}
           >

@@ -19,9 +19,9 @@ export default function OutJourney() {
 
         <div className="max-w-6xl mx-auto py-16 px-4 space-y-16">
           <Link href="#" className="absolute top-170 right-0 hidden lg:block ">
-            <Image src="/Aright.jpeg" alt="LinkedIn" width={250} height={250} />
+            <Image src="/Aright.jpeg" alt="LinkedIn" width={280} height={280} />
           </Link>
-          <Link href="#" className="absolute top-100 left-0 hidden lg:block ">
+          <Link href="#" className="absolute top-110 left-0 hidden lg:block ">
             <Image src="/Aleft.jpeg" alt="LinkedIn" width={250} height={250} />
           </Link>
 
@@ -32,7 +32,7 @@ export default function OutJourney() {
                   <h3 className="text-xl font-bold text-black mt-2">2019</h3>
                 </div>
 
-                <div className="bg-gray-900 text-white rounded-2xl p-10 shadow-md w-full">
+                <div className="bg-gray-900 text-white rounded-2xl p-10 shadow-md w-full transform transition-transform duration-300 hover:scale-[1.03] hover:-translate-y-1">
                   <div className="flex items-start gap-4">
                     <Image
                       src="/Vector.png"
@@ -62,7 +62,7 @@ export default function OutJourney() {
                   <h3 className="text-xl font-bold text-black mt-2">2021</h3>
                 </div>
 
-                <div className="bg-gray-900 text-white rounded-2xl p-10 shadow-md w-full">
+                <div className="bg-gray-900 text-white rounded-2xl p-10 shadow-md w-full transform transition-transform duration-300 hover:scale-[1.03] hover:-translate-y-1">
                   <div className="flex items-start gap-4">
                     <Image
                       src="/Vector.png"
@@ -92,7 +92,7 @@ export default function OutJourney() {
                   <h3 className="text-xl font-bold text-black mt-2">2023</h3>
                 </div>
 
-                <div className="bg-gray-900 text-white rounded-2xl p-10 shadow-md w-full">
+                <div className="bg-gray-900 text-white rounded-2xl p-10 shadow-md w-full transform transition-transform duration-300 hover:scale-[1.03] hover:-translate-y-1">
                   <div className="flex items-start gap-4">
                     <Image
                       src="/Vector.png"
@@ -124,7 +124,7 @@ export default function OutJourney() {
                   <h3 className="text-xl font-bold text-black mt-2">2024</h3>
                 </div>
 
-                <div className="bg-gray-900 text-white rounded-2xl p-10 shadow-md w-full">
+                <div className="bg-gray-900 text-white rounded-2xl p-10 shadow-md w-full transform transition-transform duration-300 hover:scale-[1.03] hover:-translate-y-1">
                   <div className="flex items-start gap-4">
                     <Image
                       src="/Vector.png"

@@ -13,15 +13,19 @@ export default function Featured() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0  p-6 rounded-[40px] border-[2px] border-b-6 ">
-        <div className="border-r">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-0  p-6 rounded-[40px] border-[2px] border-b-6 ">
+        <div className=" sm:border-r border-b sm:border-b-0">
           <div className="p-6">
-            <h3 className="text-lg font-semibold leading-none">E-commerce</h3>
-            <h3 className="text-lg font-semibold mb-6">Fashion Brand</h3>
+            <h3 className="text-lg font-semibold leading-none">
+              10 SEO Myths You
+            </h3>
+            <p className="text-lg font-semibold ">Need to Stop</p>
+            <p className="text-lg font-semibold mb-6"> Believing</p>
+
             <p className="text-gray-600 text-sm mb-6">
-              We implemented a tailored SEO strategy that boosted organic search
-              rankings, leading to a 150% increase in website traffic and a 50%
-              rise in online sales within six months.
+              Think keyword stuffing and meta tags are the secret to ranking?
+              Discover the truth behind common SEO misconceptions and learn what
+              really drives results.
             </p>
             <div className="flex items-center gap-2 justify-center sm:justify-start ">
               <Image
@@ -32,24 +36,25 @@ export default function Featured() {
                 className="w-6 h-6"
               />
               <div className="flex items-center justify-between  ">
-                <button className=" font-medium flex items-center">
-                  Learn more
+                <button className=" font-medium flex items-center cursor-pointer">
+                  Read article
                 </button>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="border-r">
+        <div className=" sm:border-r border-b sm:border-b-0">
           <div className="p-6">
             <h3 className="text-lg font-semibold leading-none">
-              Local Restaurant
+              Maximizing ROI
             </h3>
-            <h3 className="text-lg font-semibold mb-6"> Chain</h3>
+            <p className="text-lg font-semibold "> with Social Media</p>
+            <p className="text-lg font-semibold mb-6"> Advertising</p>
             <p className="text-gray-600 text-sm mb-6">
-              By optimizing local SEO and enhancing Google My Business profiles,
-              we increased visibility, driving a 300% boost in online
-              reservations and foot traffic.
+              Social media ads are more than just boosted posts. Explore proven
+              strategies for crafting campaigns that engage audiences and
+              deliver measurable returns. Read article
             </p>
             <div className="flex items-center gap-2 justify-center sm:justify-start ">
               <Image
@@ -60,8 +65,8 @@ export default function Featured() {
                 className="w-6 h-6"
               />
               <div className="flex items-center justify-between  ">
-                <button className=" font-medium flex items-center">
-                  Learn more
+                <button className=" font-medium flex items-center cursor-pointer">
+                  Read article
                 </button>
               </div>
             </div>
@@ -69,12 +74,90 @@ export default function Featured() {
         </div>
         <div className="">
           <div className="p-6">
-            <h3 className="text-lg font-semibold mb-6">Healthcare Provider</h3>
+            <h3 className="text-lg font-semibold">How Content</h3>
+            <p className="text-lg font-semibold ">Marketing Fuels</p>
+            <p className="text-lg font-semibold mb-6">Long-Term Growth</p>
+            <p className="text-gray-600 text-sm mb-6">
+              Content isnt just king-its the foundation of sustainable business
+              growth. Find out how blogs, videos, and more can build trust and
+              drive conversions. Read article
+            </p>
+            <div className="flex items-center gap-2 justify-center sm:justify-start ">
+              <Image
+                src="/serviceIcons/Icon.png"
+                alt="Clubs icon"
+                width={24}
+                height={24}
+                className="w-6 h-6"
+              />
+              <div className="flex items-center justify-between  ">
+                <button className=" font-medium flex items-center cursor-pointer">
+                  Read article
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className=" sm:border-t  border-t sm:border-r">
+          <div className="p-6">
+            <h3 className="text-lg font-semibold">The Art of A/B </h3>
+            <p className="text-lg font-semibold ">Testing: Perfecting </p>
+            <p className="text-lg font-semibold mb-6">Your Campaigns</p>
+            <p className="text-gray-600 text-sm mb-6">
+              From headlines to call-to- actions, small tweaks can make a big
+              difference. Learn how to use A/B testing to refine your marketing
+              strategies.
+            </p>
+            <div className="flex items-center gap-2 justify-center sm:justify-start ">
+              <Image
+                src="/serviceIcons/Icon.png"
+                alt="Clubs icon"
+                width={24}
+                height={24}
+                className="w-6 h-6"
+              />
+              <div className="flex items-center justify-between  ">
+                <button className=" font-medium flex items-center cursor-pointer">
+                  Read article
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className=" sm:border-r sm:border-t border-t">
+          <div className="p-6">
+            <h3 className="text-lg font-semibold">Understanding</h3>
+            <p className="text-lg font-semibold "> Googles Latest </p>
+            <p className="text-lg font-semibold mb-6">Algorithm Update</p>
+            <p className="text-gray-600 text-sm mb-6">
+              Search rankings change constantly-stay ahead by learning about the
+              latest Google update and its impact on your SEO strategy
+            </p>
+            <div className="flex items-center gap-2 justify-center sm:justify-start ">
+              <Image
+                src="/serviceIcons/Icon.png"
+                alt="Clubs icon"
+                width={24}
+                height={24}
+                className="w-6 h-6"
+              />
+              <div className="flex items-center justify-between  ">
+                <button className=" font-medium flex items-center cursor-pointer">
+                  Read article
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className=" sm:border-t border-t">
+          <div className="p-6">
+            <h3 className="text-lg font-semibold">5 Ways Al is</h3>
+            <p className="text-lg font-semibold "> Changing Digital </p>
+            <p className="text-lg font-semibold mb-6">Marketing</p>
             <p className="text-gray-600 text-sm mb-6">
               Through content optimization and targeted keyword strategy, we
               helped a healthcare provider rank on the first page for critical
-              services, resulting in a 180% increase in inquiries and patient
-              bookings.
+              services.
             </p>
             <div className="flex items-center gap-2 justify-center sm:justify-start ">
               <Image
@@ -85,85 +168,8 @@ export default function Featured() {
                 className="w-6 h-6"
               />
               <div className="flex items-center justify-between  ">
-                <button className=" font-medium flex items-center">
-                  Learn more
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="border-t border-r">
-          <div className="p-6">
-            <h3 className="text-lg font-semibold leading-none">E-commerce</h3>
-            <h3 className="text-lg font-semibold mb-6">Fashion Brand</h3>
-            <p className="text-gray-600 text-sm mb-6">
-              We implemented a tailored SEO strategy that boosted organic search
-              rankings, leading to a 150% increase in website traffic and a 50%
-              rise in online sales within six months.
-            </p>
-            <div className="flex items-center gap-2 justify-center sm:justify-start ">
-              <Image
-                src="/serviceIcons/Icon.png"
-                alt="Clubs icon"
-                width={24}
-                height={24}
-                className="w-6 h-6"
-              />
-              <div className="flex items-center justify-between  ">
-                <button className=" font-medium flex items-center">
-                  Learn more
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="border-t border-r">
-          <div className="p-6">
-            <h3 className="text-lg font-semibold leading-none">
-              Local Restaurant
-            </h3>
-            <h3 className="text-lg font-semibold mb-6"> Chain</h3>
-            <p className="text-gray-600 text-sm mb-6">
-              By optimizing local SEO and enhancing Google My Business profiles,
-              we increased visibility, driving a 300% boost in online
-              reservations and foot traffic.
-            </p>
-            <div className="flex items-center gap-2 justify-center sm:justify-start ">
-              <Image
-                src="/serviceIcons/Icon.png"
-                alt="Clubs icon"
-                width={24}
-                height={24}
-                className="w-6 h-6"
-              />
-              <div className="flex items-center justify-between  ">
-                <button className=" font-medium flex items-center">
-                  Learn more
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="border-t">
-          <div className="p-6">
-            <h3 className="text-lg font-semibold mb-6">Healthcare Provider</h3>
-            <p className="text-gray-600 text-sm mb-6">
-              Through content optimization and targeted keyword strategy, we
-              helped a healthcare provider rank on the first page for critical
-              services, resulting in a 180% increase in inquiries and patient
-              bookings.
-            </p>
-            <div className="flex items-center gap-2 justify-center sm:justify-start ">
-              <Image
-                src="/serviceIcons/Icon.png"
-                alt="Clubs icon"
-                width={24}
-                height={24}
-                className="w-6 h-6"
-              />
-              <div className="flex items-center justify-between  ">
-                <button className=" font-medium flex items-center">
-                  Learn more
+                <button className=" font-medium flex items-center cursor-pointer">
+                  Read article
                 </button>
               </div>
             </div>

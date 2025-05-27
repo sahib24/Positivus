@@ -17,19 +17,19 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-5 text-md">
-            <Link href="#" className="underline hover:text-gray-300">
+            <Link href="/AboutUs" className="underline hover:text-gray-300">
               About us
             </Link>
-            <Link href="#" className="underline hover:text-gray-300">
+            <Link href="/Services" className="underline hover:text-gray-300">
               Services
             </Link>
-            <Link href="#" className="underline hover:text-gray-300">
+            <Link href="/Usecases" className="underline hover:text-gray-300">
               Use Cases
             </Link>
-            <Link href="#" className="underline hover:text-gray-300">
+            <Link href="Pricing" className="underline hover:text-gray-300">
               Pricing
             </Link>
-            <Link href="#" className="underline hover:text-gray-300">
+            <Link href="Blog" className="underline hover:text-gray-300">
               Blog
             </Link>
           </div>
@@ -80,23 +80,30 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="w-full flex justify-center lg:justify-end">
+          <div className="w-full flex justify-center lg:justify-end sm:px-0 px-2">
             <div className="bg-[#292A32] rounded-xl w-full max-w-[400px] p-3 min-h-[80px] flex items-center justify-center">
-              <div className="flex flex-row flex-nowrap gap-2 items-center justify-center w-full">
+              <div className="flex flex-row flex-nowrap sm:gap-2 gap-1 items-center justify-center w-full">
                 <input
                   type="email"
                   placeholder="Your email"
-                  className="border border-gray-500 bg-transparent text-white rounded-md px-3 py-2 w-[160px] text-sm focus:outline-none focus:ring-2 focus:ring-white"
+                  className="border border-gray-500 bg-transparent text-white  rounded-md px-1 sm:px-3 sm:py-3 py-1 w-[160px] text-sm focus:outline-none focus:ring-2 focus:ring-white"
                 />
-                <button className="bg-[#B9FF66] text-black font-medium py-2 px-2 rounded-md text-sm whitespace-nowrap hover:bg-[#191A23] hover:text-white">
-                  Subscribe to news
+
+                <button className="b bg-[#B9FF66]  text-black font-medium group hover:text-white  flex flex-col items-center border hover:border-white  border-black  px-1 sm:px-3 sm:py-3 py-1.5 rounded relative overflow-hidden cursor-pointer">
+                  <span
+                    className="absolute inset-0 bg-black   translate-x-[-100%] group-hover:translate-x-0
+     transition-transform duration-600 ease-out z-0"
+                  ></span>
+                  <p className="relative z-10 text-center sm:text-[14px] text-[11px] ">
+                    Subscribe to news
+                  </p>
                 </button>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="mt-10 border-t border-gray-700 pt-6 text-sm flex flex-col md:flex-row gap-16 text-center md:text-left">
+        <div className="mt-10 border-t border-white pt-6 text-sm flex flex-col md:flex-row md:gap-16 gap-4 text-center md:text-left">
           <p>© 2025 Positivus. All Rights Reserved.</p>
           <p className="underline">Privacy Policy</p>
         </div>

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Expert() {
   return (
-    <div className="custom-container mb-6">
+    <div className="custom-container mb-6 py-8">
       <div className="flex flex-col md:flex-row px-8 items-center justify-around py-6 bg-[#F3F3F3] mt-6 mb-4 rounded-3xl">
         <div className=" mb-6 md:mb-0  flex justify-center ">
           <Image

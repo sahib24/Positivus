@@ -4,16 +4,25 @@
 @import "swiper/css/navigation";
 
 .custom-container {
-  @apply px-5 sm:px-5 md:px-10 lg:px-10 xl:px-20;
+  @apply px-5 md:px-10 lg:px-10 xl:px-20;
 }
 
 .ourclient .swiper-wrapper {
-  transition-timing-function: linear;
+  transition-timing-function: linear !important;
 }
 
-.testimonial .swiper-pagination .swiper-pagination-bullet {
-  background-color: white;
+.custom-bullet {
+  background-color: white !important;
 }
-.testimonial .swiper-pagination .swiper-pagination-bullet-active {
+
+.custom-bullet.swiper-pagination-bullet-active {
   background-color: #b9ff66 !important;
+}
+
+.arrow-button {
+  padding: 0.5rem 0.8rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }

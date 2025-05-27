@@ -104,8 +104,12 @@ export default function TeamSection() {
       </div>
 
       <div className="flex lg:justify-end  sm:justify-center md:sm:justify-end justify-center  mt-10">
-        <button className="bg-black text-white px-6 py-3 rounded-xl text-[13px] md:text-[18px] cursor-pointer hover:bg-[#B9FF66] hover:text-black">
-          See all team
+        <button className="bg-black text-white text-[16px] md:text-[20px] font-medium group flex flex-col items-center border hover:text-black border-black py-2 px-4 rounded relative overflow-hidden cursor-pointer">
+          <span
+            className="absolute inset-0 bg-[#B9FF66]  translate-x-[-100%] group-hover:translate-x-0
+     transition-transform duration-300 ease-out z-0"
+          ></span>
+          <p className="relative z-10 text-center"> See all team</p>
         </button>
       </div>
     </div>

@@ -21,7 +21,7 @@ export default function Services() {
             Lets work together to grow your online presence.
           </p>
 
-          <button className="w-full md:w-[550px] px-6 py-3 bg-[#B9FF66] text-black font-medium rounded-md hover:bg-black hover:text-white cursor-pointer transition">
+          <button className="bg-[#B9FF66] w-full md:w-[550px] text-black text-[14px] md:text-[20px] font-medium group flex flex-col items-center  hover:text-white hover:bg-black py-2 px-3 rounded relative overflow-hidden cursor-pointer">
             Start My SEO Journey
           </button>
         </div>

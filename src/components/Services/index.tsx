@@ -33,7 +33,7 @@ export default function Services() {
                   className="w-6 h-6"
                 />
                 <div className="flex items-center justify-between  ">
-                  <button className=" font-medium flex items-center">
+                  <button className=" font-medium flex items-center cursor-pointer">
                     Learn more
                   </button>
                 </div>
@@ -68,7 +68,7 @@ export default function Services() {
                   className="w-6 h-6"
                 />
                 <div className="flex items-center justify-between  ">
-                  <button className=" font-medium flex items-center">
+                  <button className=" font-medium flex items-center cursor-pointer">
                     Learn more
                   </button>
                 </div>
@@ -86,7 +86,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="bg-black text-white p-5 rounded-2xl shadow-md flex flex-col justify-between py-6">
+        <div className="bg-black text-white p-5 rounded-[40px] border-[2px] border-b-6 shadow-md flex flex-col justify-between py-6">
           <div className="flex flex-col md:flex-row items-center justify-between ">
             <div className=" text-center md:text-left space-y-24">
               <h1 className="font-semibold text-D_Grey bg-white px-2 text-black  text-[24px] leading-tight ">
@@ -103,7 +103,7 @@ export default function Services() {
                   className="w-6 h-6"
                 />
                 <div className="flex items-center justify-between  ">
-                  <button className=" font-medium flex items-center">
+                  <button className=" font-medium flex items-center cursor-pointer">
                     Learn more
                   </button>
                 </div>
@@ -138,7 +138,7 @@ export default function Services() {
                   className="w-6 h-6"
                 />
                 <div className="flex items-center justify-between  ">
-                  <button className=" font-medium flex items-center">
+                  <button className=" font-medium flex items-center cursor-pointer">
                     Learn more
                   </button>
                 </div>
@@ -173,7 +173,7 @@ export default function Services() {
                   className="w-6 h-6"
                 />
                 <div className="flex items-center justify-between  ">
-                  <button className=" font-medium flex items-center">
+                  <button className=" font-medium flex items-center cursor-pointer">
                     Learn more
                   </button>
                 </div>
@@ -191,7 +191,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="bg-black text-white p-5 rounded-2xl shadow-md flex flex-col justify-between py-6">
+        <div className="bg-black text-white p-5 rounded-[40px] border-[2px] border-b-6 shadow-md flex flex-col justify-between py-6">
           <div className="flex flex-col md:flex-row items-center justify-between ">
             <div className=" text-center md:text-left space-y-24">
               <h1 className="font-semibold text-D_Grey px-2 bg-[#B9FF66]  text-[24px] leading-tight text-black">
@@ -208,7 +208,7 @@ export default function Services() {
                   className="w-6 h-6"
                 />
                 <div className="flex items-center justify-between  ">
-                  <button className=" font-medium flex items-center">
+                  <button className=" font-medium flex items-center cursor-pointer">
                     Learn more
                   </button>
                 </div>
