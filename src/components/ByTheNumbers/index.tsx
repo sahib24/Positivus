@@ -16,7 +16,7 @@ export default function StatsSection() {
 
         <div className="md:col-span-8 col-span-1 bg-[#B9FF66] rounded-xl p-6">
           <p className="text-xl font-bold text-black mb-1 ">41% of clicks</p>
-          <p className="text-md text-black w-[480px]">
+          <p className="text-md text-black md:w-[480px] ">
             on search engines go to the top three organic results, showing the
             importance of ranking highly.
           </p>

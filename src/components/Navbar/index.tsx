@@ -94,7 +94,7 @@ export default function Navbar() {
              relative overflow-hidden group"
           >
             <span
-              className="absolute inset-0 bg-[#8BCC33] translate-x-[-100%] group-hover:translate-x-0
+              className="absolute inset-0 bg-[#B9FF66] translate-x-[-100%] group-hover:translate-x-0
                transition-transform duration-500 ease-out z-0"
             ></span>
             <p className="relative z-10 text-[10px] md:text-[15px] text-center">

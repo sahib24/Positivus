@@ -13,7 +13,7 @@ export default function Awards() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2   md:grid-cols-2   lg:grid-cols-4 gap-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2   md:grid-cols-2   xl:grid-cols-4 gap-12">
         <div className="bg-[#F3F3F3] rounded-4xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
           <div className="h-48 bg-gray-100 flex items-center justify-center">
             <Image
