@@ -60,7 +60,7 @@ export default function Testimonials() {
             centeredSlides={true}
             loop={true}
             speed={1000}
-            autoplay={{ delay: 3000 }}
+            autoplay={{ delay: 2000 }}
             pagination={{
               clickable: true,
               el: ".custom-pagination",
